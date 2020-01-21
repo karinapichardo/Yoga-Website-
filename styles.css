@@ -1,0 +1,263 @@
+body {
+    background-color: darkgreen;
+    font-family: Courier New;
+}
+
+h1 {
+    color: yellowgreen;
+    font-family: Courier New;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 0;
+    font-size: 50px;
+    margin: 0;
+
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: herculanum;
+    font-size: 35px;
+    margin: 0;
+}
+
+#about {
+    font-family: Courier New;
+    color: darkgreen;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    text-transform: uppercase;
+}
+
+ul li {
+    float: left;
+    text-align: center;
+    padding: 40px;
+    font-size: 25px;
+}
+
+ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 0 20px;
+}
+
+ul li ul li {
+    display: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: mediumpurple;
+}
+
+a:active {
+    color: greenyellow;
+}
+
+.section {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.section li {
+    text-align: center;
+    font-size: 25px;
+}
+
+.body {
+    background-color: white;
+    display: flex;
+    min-height: 90vh;
+    margin: 90px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.content {
+    background-color: white;
+    min-height: 90vh;
+    margin: 90px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.container {
+    float: left;
+    width: 510px;
+}
+
+
+.address {
+    color: greenyellow;
+    font-size: 25px;
+    padding-left: 90px;
+    margin: 0px;
+}
+
+#teacher-name {
+    margin: 40px;
+    color: forestgreen;
+}
+
+#name {
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 30px;
+    font-weight: 50;
+    color: green;
+    font-family: Courier New;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+#about {
+    margin: 45px;
+    margin-top: 20px;
+    font-weight: 50;
+    margin-bottom: 0px;
+    color: darkgreen;
+}
+
+#info {
+    line-height: 20px;
+    font-family: sans-serif;
+    margin: 0px;
+    padding-left: 45px;
+}
+
+#yoga {
+    font-size: 90px;
+    color: green;
+    position: absolute;
+    padding: 65px;
+    margin: 70px;
+    text-align: center;
+}
+
+#copyright {
+    color: white;
+    font-size: 12px;
+    padding: 0px;
+    margin: inherit;
+    padding-left: 90px;
+}
+
+#form-title {
+    color: darkgreen;
+    margin-left: 80px;
+}
+
+form {
+    list-style: none;
+    overflow: hidden;
+    margin-left: 80px;
+}
+
+form label {
+    display: block;
+    padding: 10px;
+}
+
+form label span {
+    display: block;
+    line-height: 27px;
+    padding: 0 0 5px;
+}
+
+input {
+    background-color: lightgray;
+    height: 40px;
+    width: 400px;
+    font-size: 15px;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+    font-size: 15px;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    align-content: center;
+    margin-left: 150px;
+}
+
+.figure {
+    display: block;
+    margin-left: auto;
+    padding: 80px;
+    margin-bottom: 0px;
+    width: auto;
+}
+
+.figure2 {
+    display: block;
+    margin-bottom: 0px;
+    padding: 80px;
+}
+
+.purple-line {
+    display: block;
+    padding-left: 200px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.footer {
+    margin-top: 0px;
+}
+
+.facebook {
+    display: block;
+    float: right;
+    width: 40px;
+    margin-right: 200px;
+}
+
+.twitter,
+.google {
+    display: block;
+    float: right;
+    width: 40px;
+    margin-right: 15px;
+}
+
+.pinterest {
+    display: block;
+    float: right;
+    width: 65px;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 70px;
+
+}
+
+.yoga_medical {
+    color: green;
+}
